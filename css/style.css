@@ -176,10 +176,6 @@ img {
   gap: 40px;
 }
 
-.header-item {
-  position: relative;
-}
-
 .header-link {
   display: block;
   padding: 24px 0;
@@ -193,6 +189,10 @@ img {
 .header-link:hover,
 .header-link:focus {
   color: var(--pressed-state-color);
+}
+
+.header-current {
+  position: relative;
 }
 
 .header-current::after {
