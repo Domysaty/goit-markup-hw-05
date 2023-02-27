@@ -193,6 +193,7 @@ img {
 
 .header-current {
   position: relative;
+  color: var(--pressed-state-color);
 }
 
 .header-current::after {
@@ -494,6 +495,10 @@ img {
   border-left: 1px solid var(--accent-color);
 }
 
+.desc-text {
+  color: var(--body-text-color);
+}
+
 /* Footer */
 
 .footer {
@@ -505,8 +510,12 @@ img {
 
 .media-container {
   display: flex;
-  gap: 120px;
-  align-items: center;
+  /* gap: 120px; */
+  align-items: baseline;
+}
+
+.footer-media {
+  margin-left: 120px;
 }
 
 .footer-text {
